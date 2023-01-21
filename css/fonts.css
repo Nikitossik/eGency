@@ -1,0 +1,78 @@
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli.eot');
+    src: url('../fonts/Muli.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Muli.woff2') format('woff2'),
+        url('../fonts/Muli.woff') format('woff'),
+        url('../fonts/Muli.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli-Bold.eot');
+    src: url('../fonts/Muli-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Muli-Bold.woff2') format('woff2'),
+        url('../fonts/Muli-Bold.woff') format('woff'),
+        url('../fonts/Muli-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli-SemiBold.eot');
+    src: url('../fonts/Muli-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Muli-SemiBold.woff2') format('woff2'),
+        url('../fonts/Muli-SemiBold.woff') format('woff'),
+        url('../fonts/Muli-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Muli';
+    src: url('../fonts/Muli-ExtraBoldItalic.eot');
+    src: url('../fonts/Muli-ExtraBoldItalic.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/Muli-ExtraBoldItalic.woff2') format('woff2'),
+        url('../fonts/Muli-ExtraBoldItalic.woff') format('woff'),
+        url('../fonts/Muli-ExtraBoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+  font-family: 'icons';
+  src:  url('../fonts/icons.eot?nmzedu');
+  src:  url('../fonts/icons.eot?nmzedu#iefix') format('embedded-opentype'),
+    url('../fonts/icons.ttf?nmzedu') format('truetype'),
+    url('../fonts/icons.woff?nmzedu') format('woff'),
+    url('../fonts/icons.svg?nmzedu#icons') format('svg');
+  font-weight: normal;
+  font-style: normal;
+  font-display: block;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icons' !important;
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-arrow-right:before {
+  content: "\e900";
+}
