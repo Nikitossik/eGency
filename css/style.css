@@ -3,6 +3,7 @@
 
 body{
     font-family: 'Muli';
+    overflow-x: hidden;
 }
 
 body.menu-open{
@@ -921,6 +922,25 @@ body.menu-open{
 .footer {
     padding: 45px 0 80px 0;
     background-color: #97EAB9;
+    
+}
+.footer__container{
+   position: relative;
+}
+.footer__decore{
+    position: absolute;
+}
+.footer__decore-1 {
+    top: -27%;
+    right: -5%
+}
+.footer__decore-2 {
+    left: 0;
+    bottom: 100px;
+}
+.footer__decore-3 {
+    bottom: 40px;
+    right: 80px;
 }
 .footer__body {
     display: flex;
